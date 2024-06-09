@@ -1,0 +1,42 @@
+.manutencao-header{
+    background-color: gray;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+    margin: auto  ; 
+    border: 1px solid rgb(22, 21, 21);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;    
+}
+.box{
+    margin: auto;
+    width: 80%;
+}
+/*Formulario*/
+
+.main-form{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.main-form .form-group{
+    padding-bottom: 10px;
+    position: relative;
+}
+.main-form .form-group label{
+   display: block;
+   font-size: 15px;
+}
+.main-form .form-group input{
+    padding: 15px;
+    width: 95%;
+    align-items: center;
+}
+#textarea{
+    width: 98% !important;
+}
