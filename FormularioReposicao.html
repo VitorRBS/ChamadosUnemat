@@ -7,53 +7,70 @@
     <title>Manutenção</title>
 </head>
 <body> 
-    <header class="manutencao-header"> Solicitação de Reposição de Aula:</header>
-    <h3><marquee behavior="" direction="">Em desenvolvimento</marquee></h3>
-       <div class="box">
-        <form action="" class="main-form">
-        <div class="form-group">
-        <label for="campo_nome">Nome:</label>
-        <input id="campo_nome" type="text" placeholder="Insira seu Nome" alt="Nome">
+    <div class="container">
+        <div class="form-image">
+            <img src="Imagens/undraw_professor_re_mj1s.svg" alt="">
+        </div> 
+    <div class="form">
+        <form action="#">
+        <div class="form-header">
+            <div class="title">
+            <h1>Chamado de Reposição</h1>
+
         </div>
-        <div class="form-group">
-        <label for="campo_email">Email:</label>
-        <input id="campo_email" type="email" placeholder="Insira seu Email" alt="Email">
         </div>
-        <div class="form-group">
-        <label for="campo_data">Data Abertura:</label>
-        <input id="campo_data" type="date" alt="Data"> 
+
+        <div class="input-group">
+            <div class="input-box">
+                <label for="campo_nome">Nome:</label>
+                <input id="campo_nome" type="text" placeholder="Insira seu Nome:" alt="Nome"required>
+                </div>
+                <div class="input-box">
+                <label for="campo_email">Email:</label>
+                <input id="campo_email" type="email" placeholder="Insira seu Email:" alt="Email"required>
+                </div>
+                <div class="input-box">
+                    <label for="campo_telefone">Telefone:</label>
+                    <input id="campo_telefone" type="number" placeholder="Insira seu Telefone: (XX) XXXX-XXXX" alt="Telefone" required>    
+                </div>
+                <div class="input-box">
+                <label for="campo_local">Local:</label>
+                <input id="campo_local" type="text" placeholder="Insira o Local:" alt="Local" required>
+                
+                <div class="input-box">
+                    <div>
+                    <label for="campo_desc">Descrição:</label>
+                    <input id="campo_desc" type="text" placeholder="Descreva a situação" alt="Descrição"  required>
+                </div>
+                <div class="urgente-input">
+                    <div class="urgente-title">
+                        <h6>Materia</h6>
+                    </div>
+                    <div class="genero-group">
+                    <input type="radio" id="baixa" name="genero">
+                    <label for="baixa">Introdução a Desenvolvimento Web</label>
+                    </div>
+                    <div class="genero-group">
+                        <input type="radio" id="Media" name="genero">
+                        <label for="Media">Laboratorio de Banco de Dados</label>
+                        </div>
+                        <div class="genero-group">
+                            <input type="radio" id="Alta" name="genero">
+                            <label for="Alta">Engenharia de Software</label>
+                            </div>
+                    </div>
+                    <div class="botao-enviar">
+                        <button><a href="">Enviar Chamado</a></button>
+                    </div>
+                   
+
+                </div>
+                <div class="botao-enviar">
+                    <button><a href="index.html">Voltar</a></button>
+                </div>
+        </div>
+    </form>
     </div>
-    <div class="form-group">
-       Local:
-        <SELECT>
-            <option value="Local" disabled  >Informe o Local:</option>
-            <option value="cantina" >Cantina</option>
-            <option value="sala">Sala</option>
-            <option value="guarita">Guarita</option>
-        </SELEct>   
-        
-    </div>
-    <div>
-        <input type="radio" id="campo_curso">
-        <label for="campo_curso">Sistemas de Informação</label> 
-    </div>
-    <div>
-        <input type="radio" id="campo_curso">
-        <label for="campo_curso">Engenharia Civil</label> 
-    </div>
-    <div>
-        <input type="radio" id="campo_curso">
-        <label for="campo_curso">Administração</label> 
-    </div>   
-                <div class="form-group">
-        <label for="campo_desc">Descricao:</label>
-        <textarea id="textarea" name="Descricao" id="campo_desc" placeholder="Insira sua Descrição" alt="Descricao"></textarea>
-    </div>
-    <input type="submit">
-        </form>
-    </div>
-    <a href="index.html">Voltar</a> 
-   
-  
+</div>
 </body>
 </html>
